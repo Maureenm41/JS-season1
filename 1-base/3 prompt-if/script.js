@@ -8,7 +8,7 @@
   // YOUR CODE HERE
 })();
 
-//ex3
+//ex3 test1
 
 if (confirm('Do you want some cake')) {
   
