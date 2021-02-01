@@ -33,20 +33,19 @@
         
         
         <script></script>
+        <button onclick="cake()">Cake</button>
 
         <p id="deliciouscake"></p>
   <script>
-function myFunction() {
+function cake() {
   var txt;
   var r = confirm('Do you want some cake');
   if (r == true) {
-    console.log= "Congratulation ! Here ! Have some cake !";
-    document.getElementById("deliciouscake");
+    txt= "Congratulation ! Here ! Have some cake !";
   } else {
-    console.log = "More cake for me then :p !";
-    document.getElementById("deliciouscake");
+    txt = "More cake for me then :p !";
   }
-  
+  document.getElementById("deliciouscake").innerHTML = txt;
 }
         </script>
     </body>
