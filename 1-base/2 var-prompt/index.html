@@ -25,5 +25,21 @@
         </section>
 
         <script src="./script.js"></script>
+
+        <!--Ex2-->
+        <button onclick="yourName()">Try it</button>
+        <p id="name"></p>
+        <script>
+            
+function yourName()
+{
+     var person = prompt("Please enter your name");
+     if (person != null) 
+     {
+    document.getElementById("name").innerHTML =
+    "Hello " + person ;
+     }
+  }
+        </script>
     </body>
 </html>
