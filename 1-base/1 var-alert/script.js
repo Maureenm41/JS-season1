@@ -7,3 +7,7 @@
 
     // YOUR CODE HERE
 })();
+
+var helloJs = 'Hello, World!';
+
+var helloJs.alert('Hello, world!')
