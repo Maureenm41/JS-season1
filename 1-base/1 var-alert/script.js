@@ -9,13 +9,4 @@
 })();
 
 var helloJs = "Hello, world!";
-
-fonction helloJs()
-{
-    var res = 
-String (helloJs);
-document.getElementById('').innerHTML=res;
-}
-
-
 alert('Hello, world!')
