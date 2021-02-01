@@ -31,5 +31,18 @@
         </section>
 
         <script src="./script.js"></script>
+
+        <!--ex1-->
+        <button onclick="helloJs()">test</button>
+        <p id="test"></p>
+        <script>
+            function helloJs() {
+              var hello = "Hello, World!";
+            
+             var res =
+              String(hello) + "<br>";
+              document.getElementById("test").innerHTML = res;
+            }
+            </script>
     </body>
 </html>

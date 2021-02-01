@@ -8,6 +8,14 @@
     // YOUR CODE HERE
 })();
 
-var helloJs = 'Hello, World!';
+var helloJs = "Hello, world!";
 
-var helloJs.alert('Hello, world!')
+fonction helloJs()
+{
+    var res = 
+String (helloJs);
+document.getElementById('').innerHTML=res;
+}
+
+
+alert('Hello, world!')
