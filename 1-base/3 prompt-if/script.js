@@ -7,3 +7,15 @@
 
   // YOUR CODE HERE
 })();
+
+//ex3
+
+if (confirm('Do you want some cake')) {
+  
+  console.log('Congratulation ! Here ! Have some cake !');
+  document.getElementById("deliciouscake")
+} else {
+  
+  console.log('More cake for me then :p !');
+  document.getElementById("deliciouscake")
+}
