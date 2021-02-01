@@ -21,6 +21,7 @@ function moreAboutMe(){
 if(answer== true)
 {
     console.log(answer);
+    document.getElementById("aboutme")
 }
 else
 {
