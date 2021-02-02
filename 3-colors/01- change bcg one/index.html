@@ -25,14 +25,39 @@
                 </article>
                 <section class="material">
                     <div class="actions">
-                        <button type="button" id="red">Red</button>
-                        <button type="button" id="green">Green</button>
-                        <button type="button" id="yellow">Yellow</button>
-                        <button type="button" id="blue">Blue</button>
+                        <button type="button" onclick="Red()"  id="red">Red</button>
+                        <button type="button" onclick="Green()" id="green">Green</button>
+                        <button type="button" onclick="Yellow()" id="yellow">Yellow</button>
+                        <button type="button" onclick="Blue()" id="blue">Blue</button>
                     </div>
                 </section>
             </main>
         </section>
+
+        <script>
+            function Red() 
+            {
+            document.body.style.backgroundColor = "red";
+          }
+
+          function Green()
+          {
+              document.body.style.backgroundColor ="green";
+          }
+
+          function Yellow()
+          {
+              document.body.style.backgroundColor ="yellow";
+          }
+
+          function Blue()
+          {
+              document.body.style.backgroundColor ="blue";
+          }
+
+        </script>
+
+        
 
         <script src="./script.js"></script>
     </body>
