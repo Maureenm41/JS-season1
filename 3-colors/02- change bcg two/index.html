@@ -28,7 +28,7 @@
                     <form action="#" method="post">
                         <div class="field">
                             <label for="color">Color:</label>
-                            <input type="text" name="color" id="color" value="click to change backgroundcolor" onclick="changeColor()"/>
+                            <input type="text" name="color" id="color colorInputText" value="click to change backgroundcolor" onclick="changeColor()"/>
                         </div>
                         <div class="actions">
                             <button type="button" id="run">Run the script</button>
@@ -44,7 +44,7 @@
         <script>
             function changeColor()
             {
-                let color = document.getElementById(color).value;
+                let color = document.getElementById('colorInputText').value;
                 document.body.style.backgroundColor = color;
             }
         </script>
