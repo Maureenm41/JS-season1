@@ -30,7 +30,7 @@
                             <input type="text" name="numbers" id="numbers" readonly value="2, 4, 14, 10, 90, 23, 16" />
                         </div>
                         <div class="actions">
-                            <button type="button" id="run">Run the script</button>
+                            <button onclick="myFunction()" type="button" id="run">Run the script</button>
                         </div>
                     </form>
                 </section>
@@ -38,5 +38,17 @@
         </section>
 
         <script src="./script.js"></script>
+
+        <!--ex4-->
+        <!---->
+        <script>
+            var points = [2, 4, 14, 10, 90, 23, 16];
+            document.getElementById("numbers").innerHTML = points;  
+            
+            function myFunction() {
+              points.sort(function(a, b){return a - b});
+              document.getElementById("numbers").innerHTML = points;
+            }
+            </script>
     </body>
 </html>
