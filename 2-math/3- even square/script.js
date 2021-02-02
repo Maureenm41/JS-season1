@@ -27,3 +27,15 @@ msg = msg + " " + x + " * "+ x + " = " + res + "\n";
  
 alert(msg);
 } 
+function calcHypotenuse(a, b) 
+        {
+            return (Math.sqrt((a * a));
+        }
+
+console.log(calcHypotenuse(3, 4));
+// expected output: 5
+
+console.log(calcHypotenuse(5, 12));
+// expected output: 13
+
+console.log(calcHypotenuse(0, 0));
