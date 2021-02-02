@@ -12,30 +12,29 @@
 
 })();
 //ex3
-
-function square()
+function square ()
 {
-var n=prompt ("Enter the limit 'n' to generate the table of numbers from 1 to n:","");
-var msg="";
-var res= "0";
- 
-for(var x= 1; x<=n;x++)
-{
-res = x * x;
-msg = msg + " " + x + " * "+ x + " = " + res + "\n";
-}
- 
-alert(msg);
-} 
-function calcHypotenuse(a, b) 
-        {
-            return (Math.sqrt((a * a));
-        }
+        console.log(Math.pow(1, 2));
+        console.log(Math.pow(2, 2));
+        console.log(Math.pow(3, 2));
+        console.log(Math.pow(4, 2));
+        console.log(Math.pow(5, 2));
+        console.log(Math.pow(6, 2));
+        console.log(Math.pow(7, 2));
+        console.log(Math.pow(8, 2));
+        console.log(Math.pow(9, 2));
+        console.log(Math.pow(10, 2));
+        console.log(Math.pow(11, 2));
+        console.log(Math.pow(12, 2));
+        console.log(Math.pow(13, 2));
+        console.log(Math.pow(14, 2));
+        console.log(Math.pow(15, 2));
+        console.log(Math.pow(16, 2));
+        console.log(Math.pow(17, 2));
+        console.log(Math.pow(18, 2));
+        console.log(Math.pow(19, 2));
+        console.log(Math.pow(20, 2));
+        console.log(Math.pow(21, 2));
+    }
 
-console.log(calcHypotenuse(3, 4));
-// expected output: 5
-
-console.log(calcHypotenuse(5, 12));
-// expected output: 13
-
-console.log(calcHypotenuse(0, 0));
+        document.getElementById("run").innerHTML
