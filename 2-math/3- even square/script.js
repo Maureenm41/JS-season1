@@ -11,9 +11,7 @@
     });
 
 })();
-//ex3
-function square ()
-{
+//ex3 
         console.log(Math.pow(1, 2));
         console.log(Math.pow(2, 2));
         console.log(Math.pow(3, 2));
@@ -35,6 +33,6 @@ function square ()
         console.log(Math.pow(19, 2));
         console.log(Math.pow(20, 2));
         console.log(Math.pow(21, 2));
-    }
+    
 
         document.getElementById("run").innerHTML
