@@ -17,7 +17,7 @@
     fruits[0] = "banana";
     fruits[9]= "kiwi";
 
-    document.write(fruits)
+    document.write(fruits).innerHtml= fruits
 
 
     // your code here
