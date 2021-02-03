@@ -39,13 +39,16 @@
         </section>
 
         <script src="./script.js"></script>
+            <!--ex2 this one work-->
+           <input type="text" id="colorInputText">
+           <input type="button" id="colorButton" value="click to change backgroundcolor" onclick="changeColor()">
 
         <!--ex2-->
         <script>
             function changeColor()
             {
-                let color = document.getElementById('colorInputText').value;
-                document.body.style.backgroundColor = color;
+                let color = document.getElementById("colorInputText").value ;
+                document.body.style.backgroundColor = color ;
             }
         </script>
     </body>
