@@ -31,6 +31,8 @@
         },
     ];
 
+    people.forEach(firstname=> console.log(firstname));
+
     // your code here
 
 })();
