@@ -147,9 +147,13 @@
                     <p id="result"></p>
                 </div>
         <script>
-            function ageCalculator() {
-    var userinput = document.getElementById("dob-year").value;
-    var dob = new Date(userinput);
+            function ageCalculator() 
+            {
+                var userinput = document.getElementById("dob-day").value;
+                var userinput = document.getElementById("dob-month").value;
+                 var userinput = document.getElementById("dob-year").value;
+                 
+                 var dob = new Date(userinput);
     if(userinput==null || userinput=='') {
       document.getElementById("message").innerHTML = "**Choose a date please!";  
       return false; 
