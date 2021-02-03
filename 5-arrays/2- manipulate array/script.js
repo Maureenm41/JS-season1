@@ -1,7 +1,6 @@
 // 05-arrays/02-manipulate-array/script.js - 5.2: manipulate array
 
 (() => {
-
     let fruits = [
         "pomme",
         "poire",
@@ -16,8 +15,10 @@
     ];
     fruits[0] = "banana";
     fruits[9]= "kiwi";
+    document.write(fruits)
 
-    document.write(fruits).innerHtml= fruits
+
+    
 
 
     // your code here
