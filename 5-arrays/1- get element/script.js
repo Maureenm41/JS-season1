@@ -17,6 +17,8 @@
         "cherry",
     ];
 
+    console.log(fruits);
+
     // your code here
 
 })();
