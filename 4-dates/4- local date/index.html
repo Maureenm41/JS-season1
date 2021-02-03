@@ -23,7 +23,7 @@
                     <p>Change the content of the indicated tag by the date of today, in English (ex : Sunday 28 October 2018, 23h32).</p>
                 </article>
                 <section class="material">
-                    <p id="target">Change me !</p>
+                    <p id="target date">Change me !</p>
                 </section>
             </main>
         </section>
@@ -43,13 +43,15 @@
   weekday[6] = "Saturday";
 
   var n = weekday[d.getDay()];
-  document.getElementById("target").innerHTML = n;
+  var y = n.getFullYear();
+  var m = n.getMonth() + 1;
+ var d = n.getDay();
+  document.getElementById("target").innerHTML = n d + "/" + m + "/" + y;
           //
-            //n =  new Date();
             y = n.getFullYear();
             m = n.getMonth() + 1;
-            d = n.getDayDate();
-            document.getElementById("target").innerHTML = n+  d + "/" + m + "/" + y;
+            d = n.getDay();
+            document.getElementById("date").innerHTML = d + "/" + m + "/" + y;
         </script>
     </body>
 </html>
