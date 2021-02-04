@@ -13,6 +13,11 @@
         "Simon",
         "Lucas",
     ]);
-
+    console.log(people.length);
+    //people.length =n
+//console.log(people.length);
     // your code here
+
+    people.includes("Alexandre");
+    
 })();
