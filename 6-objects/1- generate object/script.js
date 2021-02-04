@@ -5,7 +5,7 @@
     // your code here
 })();
 
-var lastname= Marchal;
+/*var lastname= Marchal;
 var firstname= Maureen;
 var age = 25 years old;
 var city= Quaregnon;
@@ -24,4 +24,24 @@ const presentation =
 
 const me = Object.create(person);
 
-me.printIntroduction();
+me.printIntroduction();*/
+
+
+
+const person = {
+    isHuman: false,
+    printIntroduction: function() {
+      console.log(`I am ${this.name}.  ${this.lastname}. I'm ${this.age} I live in ${this.city} situated in ${this.country}`);
+    }
+  };
+  
+  const me = Object.create(person);
+  
+  me.name = 'Maureen';
+  me.lastname ='Marchal';
+  me.age = '25 year old';
+  me.city='Quaregnon';
+  me.country='Belgium;'
+
+
+  me.printIntroduction();
