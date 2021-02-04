@@ -12,3 +12,16 @@ var city= Quaregnon;
 var country = Belgium;
 
 console.log(var)
+
+const presentation =
+{
+    isHuman : false;
+    printIntroduction : function()
+    {
+        console.log("I am"+ lastname + firstname + "."+"I'm"+age+"I live in a city called"+city+"that is situated in"+country );
+    }
+};
+
+const me = Object.create(person);
+
+me.printIntroduction();
