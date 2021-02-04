@@ -80,8 +80,7 @@
         },
     ];
 
-    console.log(people)
-    console.log(people[email](8))
+    console.log(people[8].email)
 
     // your code here
 
