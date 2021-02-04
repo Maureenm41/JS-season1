@@ -80,10 +80,13 @@
             age: 81,
         },
     ];
+    console.log(people)
+    console.log(people{[age]})
 
     // your code here
 
-  let sum = people{age}.reduce((accumulator, currentValue)=>
+  let sum = people[age].reduce
+  ((accumulator, currentValue)=>
   {
       return accumulator + currentValue;
   },0);
