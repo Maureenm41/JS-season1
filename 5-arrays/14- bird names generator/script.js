@@ -39,4 +39,4 @@ const getRandomBirds = (max) => Math.floor(Math.random() * max);
 const getRandomBirdName = () => 
 `${birds[getRandomBirds (birds.length)]} ${adjectives[getRandomBirds (adjectives.length)]}`;
 
-console.log(getRandomBirdName);
+document.getElementById('target').innerText = getRandomBirdName();
