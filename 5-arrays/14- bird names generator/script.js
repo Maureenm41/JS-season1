@@ -32,3 +32,11 @@
 
     // your code here
 })();
+
+//ex 14
+
+const randomBirdName = () => `${birds}`;
+{
+    let res ='';
+
+}
