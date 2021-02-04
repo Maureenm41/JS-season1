@@ -18,6 +18,19 @@
 //console.log(people.length);
     // your code here
 
-    people.includes("Alexandre");
+    function testName()
+    {
+        if("Alexandre")
+    {
+        result = true ;
+    }
+    else
+    {
+        result = false;
+    }
+    return result ;
+    }
+    console.log(testName());
+    
     
 })();
