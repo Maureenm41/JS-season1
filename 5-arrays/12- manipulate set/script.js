@@ -14,6 +14,9 @@
         "grape",
         "cherry",
     ]);
+    fruits[0]="banana";
+    fruits[9]="kiwi";
+    console.log(fruits)
 
     // your code here
 })();
