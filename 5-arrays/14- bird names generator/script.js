@@ -38,4 +38,4 @@
 const randomBirdName = () => 
 `${birds[Math.floor(Math.random() * birds.length)]} ${adjectives[Math.floor(Math.random() * adjectives.length)]}`;
 
-console.log(getRandomNameBird())
+console.log(randomBirdName)
