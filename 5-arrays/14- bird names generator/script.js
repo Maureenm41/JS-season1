@@ -34,8 +34,9 @@
 })();
 
 //ex 14
+const getRandomBirds = (max) => Math.floor(Math.random() * max);
 
-const randomBirdName = () => 
-`${birds[Math.floor(Math.random() * birds.length)]} ${adjectives[Math.floor(Math.random() * adjectives.length)]}`;
+const getRandomBirdName = () => 
+`${birds[getRandomBirds (birds.length)]} ${adjectives[getRandomBirds (adjectives.length)]}`;
 
-console.log(randomBirdName)
+console.log(getRandomBirdName);
