@@ -39,4 +39,13 @@ const getRandomBirds = (max) => Math.floor(Math.random() * max);
 const getRandomBirdName = () => 
 `${birds[getRandomBirds (birds.length)]} ${adjectives[getRandomBirds (adjectives.length)]}`;
 
-document.getElementById('target').innerText = getRandomBirdName();
+
+const setRandomNameBirds = () => 
+{
+    document.getElementById("target").innerText = getRandomBirdName();
+}
+
+document.getElementById("run")
+.addEventListener('click', setRandomNameBirds);
+
+setRandomNameBirds()
