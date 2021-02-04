@@ -9,16 +9,16 @@
 //ex9
 
 var numbers = [
-    5;
-    41;
-    66;
-    79;
-    11;
-    100;
-    23;
-    85;
-    37;
-    14;
+    5,
+    41,
+    66,
+    79,
+    11,
+    100,
+    23,
+    85,
+    37,
+    14,
 ]
 
-document.getElementById(n-1)=[0]
+document.getElementById(n-1).innerHTML=numbers;
