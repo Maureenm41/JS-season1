@@ -83,13 +83,10 @@
 
     // your code here
 
-    console.log(
-        people[{age}].reduce((a, b) => a + b, 0)
-      )
-
-      console.log(
-        people[{age}].reduce((a, b) => a + b, 0)
-      )
-
+  let sum = people{age}.reduce((accumulator, currentValue)=>
+  {
+      return accumulator + currentValue;
+  },0);
+console.log(sum)
 
 })();
