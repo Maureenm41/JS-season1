@@ -81,7 +81,20 @@
     ];
 
     // your code here
-
-    console.log(people[0,1,2,3,4,6,7,8,10,11,13,14])
+     function peopleOver18()
+     {
+         let people
+         if(age<18)
+         {
+             result= 'older';
+         }
+         else if (age>18)
+         {
+             result= 'younger';
+         }
+         return result;
+     }
+    //console.log(people)
+    //console.log(people[age])
 
 })();
