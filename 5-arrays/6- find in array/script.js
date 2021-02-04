@@ -80,6 +80,9 @@
         },
     ];
 
+    console.log(people)
+    console.log(people[email](8))
+
     // your code here
 
 })();
