@@ -21,5 +21,9 @@
     ];
 
     // your code here
+//ex11
+
+const soloFruits = Array.from(new Set(fruits));
+console.log(soloFruits);
 
 })();
