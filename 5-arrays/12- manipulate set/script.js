@@ -14,8 +14,8 @@
         "grape",
         "cherry",
     ]);
-    set0.add("banana")
-    set9.add("kiwi")
+    new Set[0].add("banana");
+    new Set[9].add("kiwi");
     //fruits [0]="banana";
     //fruits [9]="kiwi";
     console.log(set0)
