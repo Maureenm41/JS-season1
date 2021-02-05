@@ -6,10 +6,10 @@
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
 
-    
+    const keyVal = key.concat(values);
+console.log(keyVal);
 })();
-const keyVal = key.concat(values);
-const obj = Object.fromEntries(keyVal);
 
 
-console.log(obj);
+//const obj = Object.fromEntries(keyVal);
+
