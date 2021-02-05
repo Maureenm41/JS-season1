@@ -12,6 +12,7 @@
     };
     // your code here
 
-    console.log(Object.key(person));
+   
 })();
+console.log(Object.keys('person'));
 
