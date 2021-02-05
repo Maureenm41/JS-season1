@@ -13,4 +13,6 @@
             this.lastname = lastname;
         }
     }
+
+    console.log("Hello"+person.firstname+person.lastname);
 })();
