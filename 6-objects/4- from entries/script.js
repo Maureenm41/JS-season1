@@ -8,8 +8,8 @@
 
     
 })();
-
-const obj = Object.fromEntries(key);
+const keyVal = key.concat(values);
+const obj = Object.fromEntries(keyVal);
 
 
 console.log(obj);
