@@ -6,7 +6,10 @@
     const values = ["Skitty", "cat", 9, "female", "tabby"];
     // your code here
 
-    const obj = Object.fromEntries(key);
-
-    console.log(obj);
+    
 })();
+
+const obj = Object.fromEntries(key);
+
+
+console.log(obj);
