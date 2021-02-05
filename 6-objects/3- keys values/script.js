@@ -11,4 +11,7 @@
         status: "married",
     };
     // your code here
+
+    console.log(Object.key(person));
 })();
+
