@@ -13,10 +13,31 @@
         {id: "0008"},
         {id: "0009", available: false, user: "Anthony"},
     ];
+    console.log(computers);
     const defaultProps = {
         available: true,
         os: "linux",
         user: null,
     };
     // your code here
+
+    const windows =
+    {
+        available :true ,
+        os : "Windows",
+        user: null ,
+    };
+
+    const mac =
+    {
+        available : true,
+        os :"macOS"
+        user: null,
+    }
+
+    
+    console.log(defaultProps);
+    console.log(windows);
+    console.log(mac);
 })();
+
