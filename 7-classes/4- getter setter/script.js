@@ -5,9 +5,11 @@
     // your code here
 })();
 
-function person
-{
-    var firstName = "Maureen" ;
-    var lastName = "Marchal" ;
-
-}
+var person = {
+    firstName: "Maureen",
+    lastName : "Marchal",
+    get name() {
+      return this.firstName;
+      return this.lastName;
+    }
+  };
