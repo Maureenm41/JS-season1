@@ -12,11 +12,13 @@
     ];
 
     // your code here
- let slider = document.querySelector('imgCarousel')
+ 
+ 
+let imgCarousel = document.querySelector('.imgCarousel')
  
 let i = 0;
 
-function netx()
+function carGal()
 {
     if (i >= gallery.length-1) i = -1;
     i++;
