@@ -41,16 +41,15 @@
         var cols ="1";
         for (var r = 0 ; r < rows; r++)
         {
-            table += '<tr>';
+            table += '<tr border=2>';
                 for (var c = 1; c <= cols ; c++)
                 {
                     table += '<td>'+ c + '</td>';
-                    //table += '</td>';
                 }
             table += '</tr>';
         }
 
-        document.write("<div border=1>"+ table +"</div>")
+        document.write("<div>"+ table +"</div>")
     </script>
 </body>
 
