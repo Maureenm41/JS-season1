@@ -49,7 +49,28 @@
     <!--ex10-->
 
     <script >
-        
+        document.querySelector('.button').onclick = function()
+        {
+            var password = document.querySelector('.password').value,
+                confirmPassword = document.querySelector('.confirmPassword').value ;
+
+                if (password == "")
+                {
+                    alert("Please insert a password");
+                }
+
+                else if (password != confirmPassword)
+                {
+                    alert("Error");
+                    return false
+                }
+
+                else if (password == confirmPassword)
+                {
+                    alert("Identic Password")
+                }
+                return true
+        }
     </script>
 </body>
 
