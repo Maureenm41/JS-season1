@@ -12,5 +12,21 @@
     ];
 
     // your code here
+ let slider = document.querySelector('imgCarousel')
+ 
+let i = 0;
+
+function netx()
+{
+    if (i >= gallery.length-1) i = -1;
+    i++;
+    return setImg();
+}
+
+function setImg()
+
+{
+    return slider.setAttribute("src","img/" +gallery[i]);
+}
 
 })();
