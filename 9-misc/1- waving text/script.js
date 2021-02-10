@@ -24,5 +24,18 @@ let timer = setInterval(onTick, 50) ;
 function onTick()
 {
     const span = text.querySelectorAll('span')[char];
-    span.classList.add('')
+    span.classList.add('fade');
+    char++
+}
+if (char===splitText.length)
+{
+    complete();
+    return;
+}
+
+
+function complete()
+{
+    clearInterval(timer);
+    timer = null;
 }
