@@ -30,7 +30,7 @@ function onTick()
 if (char===splitText.length)
 {
     complete();
-    return;
+    //return;
 }
 
 
