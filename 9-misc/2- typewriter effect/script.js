@@ -8,13 +8,12 @@
 })();
 
 
-var i = 0;
-var speed = 50;
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("target").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
+const typeWriter = function(txtElement, words ,wait = 1000)
+{
+    this.txtElement = txtElement;
+    this.words = words;
+    this.txt = '';
+    this.wordIndex = 0 ;
+    this.wait = parseInt( wait, 10);
+    this.type();
 }
