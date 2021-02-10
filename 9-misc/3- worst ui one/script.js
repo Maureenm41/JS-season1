@@ -8,5 +8,5 @@
 })();
 
 function updateTextInput(val) {
-    document.getElementById('target').value=val; 
+    document.getElementById('slider').value=val; 
   }
