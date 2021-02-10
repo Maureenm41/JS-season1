@@ -36,24 +36,7 @@
     <!--ex1-->
 
     <script>
-        var letterContainer = document.querySelector(".target");
-
-var target = letterContainer.innerText;
-
-target = target.split("");
-
-letterContainer.innerText = "";
-
-var offset = 0;
-
-target.forEach(function(letter, i){
-  var wrap = document.createElement("span");
-  wrap.innerText = letter;
-  wrap.style.position = "relative";
-  wrap.style.bottom = i+"px";
-  wrap.style.transform = "rotate("+-i+"deg)";
-  letterContainer.appendChild(wrap);
-})
+        
     </script>
 </body>
 
