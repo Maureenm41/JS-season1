@@ -7,5 +7,5 @@
 
 })();
 
-$('#counter').click(function() {
+$('#target').click(function() {
     $('.count').html(function(i, val) { return val*1+1 });
