@@ -30,16 +30,25 @@
             <section class="material">
                 <p id="target">+460000000</p>
                 <div class="actions">
-                    <button type="button" id="part-one" data-min="460" data-max="499">460</button>
-                    <button type="button" id="part-two" data-min="00" data-max="99">00</button>
-                    <button type="button" id="part-three" data-min="00" data-max="99">00</button>
-                    <button type="button" id="part-four" data-min="00" data-max="99">00</button>
+                    <button type="button" class="count" id="part-one counter" data-min="460" data-max="499">460</button>
+                    <button type="button" class="count" id="part-two counter" data-min="00" data-max="99">00</button>
+                    <button type="button" class="count" id="part-three counter" data-min="00" data-max="99">00</button>
+                    <button type="button" class="count" id="part-four counter" data-min="00" data-max="99">00</button>
                 </div>
             </section>
         </main>
     </section>
 
     <script src="./script.js"></script>
+    <!--ex4-->
+
+    <script>
+        $('#counter').click(function() 
+        {
+    $('.count').html(function(i, val) { return val*1+1 
+    });
+
+    </script>
 </body>
 
 </html>

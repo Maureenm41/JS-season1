@@ -6,3 +6,6 @@
     // your code here
 
 })();
+
+$('#counter').click(function() {
+    $('.count').html(function(i, val) { return val*1+1 });
