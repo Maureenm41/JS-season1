@@ -32,19 +32,19 @@
                 <form action="#" method="post">
                     <div class="field slot">
                         <input type="text" name="part-one" id="part-one" value="460" data-min="460" data-max="499" />
-                        <button type="button" id="fix-part-one">Stop</button>
+                        <button type="button" id="fix-part-one" onclick="random()">Stop</button>
                     </div>
                     <div class="field slot">
                         <input type="text" name="part-two" id="part-two" value="00" data-min="00" data-max="99" />
-                        <button type="button" id="fix-part-two">Stop</button>
+                        <button type="button" id="fix-part-two" onclick="random2()">Stop</button>
                     </div>
                     <div class="field slot">
                         <input type="text" name="part-three" id="part-three" value="00" data-min="00" data-max="99" />
-                        <button type="button" id="fix-part-three">Stop</button>
+                        <button type="button" id="fix-part-three"onclick="random2()">Stop</button>
                     </div>
                     <div class="field slot">
                         <input type="text" name="part-four" id="part-four" value="00" data-min="00" data-max="99" />
-                        <button type="button" id="fix-part-four">Stop</button>
+                        <button type="button" id="fix-part-four"onclick="random2()">Stop</button>
                     </div>
                 </form>
             </section>
@@ -52,6 +52,20 @@
     </section>
 
     <script src="./script.js"></script>
+
+    <!--ex5-->
+    
+    <script>
+        function random()
+        {
+            document.getElementById('target').innerHTML = Math.floor(Math.random()*499)
+        }
+
+        function random2()
+        {
+            document.getElementById('target').innerHTML= Math.floor(Math.random()*99)
+        }
+    </script>
 </body>
 
 </html>
