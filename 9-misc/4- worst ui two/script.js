@@ -7,5 +7,10 @@
 
 })();
 
-$('#target').click(function() {
-    $('.count').html(function(i, val) { return val*1+1 });
+let btnAdd = document.querySelector('#target')
+let target = document.querySelector('section')
+
+btnAdd.addEventListener('click',()=>
+{
+    target.value = parseInt(target.value)+1;
+})
