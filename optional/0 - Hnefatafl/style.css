@@ -1,0 +1,22 @@
+body
+{
+    /*background-color: #6e6c48;*/
+    background-image: linear-gradient(to bottom, #756137, #88774c, #9c8d61, #b0a478, #c4bc8f, #c4bc8f, #c4bc8f, #c4bc8f, #b0a478, #9c8d61, #88774c, #756137);
+    background-repeat: no-repeat;
+}
+
+h1
+{
+    font-family: 'UnifrakturCook', cursive ;
+    text-align: center;
+}
+h2
+{
+    text-decoration: underline;
+}
+.icon
+{
+    width: 100px;
+    position: fixed;
+    bottom: 0;
+}
