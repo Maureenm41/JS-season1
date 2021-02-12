@@ -5,6 +5,12 @@ body
     background-repeat: no-repeat;
 }
 
+header
+{
+    background-color: rgba(0, 0, 0, 0.377);
+    top: 0;
+}
+
 h1
 {
     font-family: 'UnifrakturCook', cursive ;
